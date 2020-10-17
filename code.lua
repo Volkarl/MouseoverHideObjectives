@@ -6,7 +6,7 @@ local secondsToFade = 4
 local addonFrame = CreateFrame("Frame", "addonFrame", UIParent)
 
 addonFrame:RegisterEvent("PLAYER_LOGIN") 
-addonFrame:RegisterEvent("SUPER_TRACKED_QUEST_CHANGED")
+addonFrame:RegisterEvent("SUPER_TRACKING_CHANGED")
 addonFrame:RegisterEvent("UNIT_QUEST_LOG_CHANGED")
 addonFrame:RegisterEvent("QUEST_WATCH_UPDATE")
 addonFrame:RegisterEvent("QUEST_WATCH_LIST_CHANGED") 
